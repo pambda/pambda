@@ -1,0 +1,36 @@
+{
+  "name": "pambda",
+  "version": "0.0.1",
+  "description": "Pluggable Lambda for AWS",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pambda/pambda/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.0",
+    "eslint": "^3.19.0"
+  },
+  "homepage": "https://github.com/pambda/pambda",
+  "keywords": [
+    "aws",
+    "lambda",
+    "pambda"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pambda/pambda.git"
+  },
+  "scripts": {
+    "build": "npm run lint && babel -d lib/ src/",
+    "lint": "eslint src"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
