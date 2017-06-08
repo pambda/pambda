@@ -59,6 +59,7 @@ Pambda の引数 next には、エラーを返す Lambda が渡される。
 - [pambda-404](https://github.com/pambda/pambda-404)
 - [pambda-binary-support](https://github.com/pambda/pambda-binary-support)
 - [pambda-cache](https://github.com/pambda/pambda-cache)
+- [pambda-cookie](https://github.com/pambda/pambda-cookie)
 - [pambda-github-fetch](https://github.com/pambda/pambda-github-fetch)
 - [pambda-path](https://github.com/pambda/pambda-path)
 - [pambda-router](https://github.com/pambda/pambda-router)
