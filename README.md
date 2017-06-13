@@ -43,6 +43,7 @@ Pambda's argument `next` is passed Lambda which returns an error.
 - [pambda-cookie](https://github.com/pambda/pambda-cookie)
 - [pambda-errorhandler](https://github.com/pambda/pambda-errorhandler)
 - [pambda-github-fetch](https://github.com/pambda/pambda-github-fetch)
+- [pambda-json-api](https://github.com/pambda/pambda-json-api)
 - [pambda-path](https://github.com/pambda/pambda-path)
 - [pambda-router](https://github.com/pambda/pambda-router)
 - [pambda-serve-static](https://github.com/pambda/pambda-serve-static)
