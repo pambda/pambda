@@ -35,6 +35,10 @@ Return Lambda from the specified Pambda. The Lambda is exported and used as the 
 
 Pambda's argument `next` is passed Lambda which returns an error.
 
+This function passes [lambda-terminator](https://github.com/pambda/lambda-terminator) to argument next in the passed pambda.
+
+The execution of `lambda-terminator` means there is a bug in the pambda.
+
 ## Related
 
 - [pambda-404](https://github.com/pambda/pambda-404)

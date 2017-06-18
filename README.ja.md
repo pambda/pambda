@@ -52,7 +52,8 @@ export const handler = createLambda(
 指定した Pambda から Lambda を返す。
 返された Lambda をメインのハンドラーとして export して使う。
 
-Pambda の引数 next には、エラーを返す Lambda が渡される。
+この関数は渡された Pambda の引数 next に [lambda-terminator](https://github.com/pambda/lambda-terminator) を渡す。
+lambda-terminator が実行されることは、Pambda にバグがある意味する。
 
 ## 関連パッケージ
 
