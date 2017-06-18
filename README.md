@@ -29,6 +29,8 @@ Return a Pambda which synthesized specified Pambdas.
 If you pass the last executed Lambda to the synthesized Pambda, the Lambda of the Pambda specified by the first argument is returned.
 By executing that Lambda, Lambda in Pambda is executed in the order specified by the arguments.
 
+If there is an `identity` pambda in the argument `pambdas`, they are not to be composited.
+
 ### createLambda(pambda: Pambda): Lambda
 
 Return Lambda from the specified Pambda. The Lambda is exported and used as the main handler.
@@ -38,6 +40,10 @@ Pambda's argument `next` is passed Lambda which returns an error.
 This function passes [lambda-terminator](https://github.com/pambda/lambda-terminator) to argument next in the passed pambda.
 
 The execution of `lambda-terminator` means there is a bug in the pambda.
+
+### identity: Pambda
+
+This pambda do nothing.
 
 ## Related
 
