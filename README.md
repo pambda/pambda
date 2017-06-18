@@ -49,6 +49,7 @@ Pambda's argument `next` is passed Lambda which returns an error.
 - [pambda-router](https://github.com/pambda/pambda-router)
 - [pambda-serve-static](https://github.com/pambda/pambda-serve-static)
 - [pambda-tap](https://github.com/pambda/pambda-tap)
+- [pambda-terminator](https://github.com/pambda/pambda-terminator)
 
 ## License
 

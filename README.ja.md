@@ -68,6 +68,7 @@ Pambda の引数 next には、エラーを返す Lambda が渡される。
 - [pambda-router](https://github.com/pambda/pambda-router)
 - [pambda-serve-static](https://github.com/pambda/pambda-serve-static)
 - [pambda-tap](https://github.com/pambda/pambda-tap)
+- [pambda-terminator](https://github.com/pambda/pambda-terminator)
 
 ## License
 
