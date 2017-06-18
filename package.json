@@ -8,9 +8,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-preset-env": "^1.5.0",
     "eslint": "^3.19.0"
   },
   "homepage": "https://github.com/pambda/pambda",
@@ -26,8 +23,8 @@
     "url": "git+https://github.com/pambda/pambda.git"
   },
   "scripts": {
-    "build": "npm run lint && babel -d lib/ src/",
-    "lint": "eslint src"
+    "lint": "eslint lib",
+    "prepublish": "npm run lint"
   },
   "files": [
     "README.md",
