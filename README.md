@@ -48,6 +48,7 @@ This pambda do nothing.
 ## Related
 
 - [pambda-404](https://github.com/pambda/pambda-404)
+- [pambda-aws](https://github.com/pambda/pambda-aws)
 - [pambda-binary-support](https://github.com/pambda/pambda-binary-support)
 - [pambda-cache](https://github.com/pambda/pambda-cache)
 - [pambda-cookie](https://github.com/pambda/pambda-cookie)
