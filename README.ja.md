@@ -73,6 +73,7 @@ lambda-terminator が実行されることは、Pambda にバグがある意味�
 - [pambda-github-fetch](https://github.com/pambda/pambda-github-fetch)
 - [pambda-json-api](https://github.com/pambda/pambda-json-api)
 - [pambda-path](https://github.com/pambda/pambda-path)
+- [pambda-pug](https://github.com/pambda/pambda-pug)
 - [pambda-redux](https://github.com/pambda/pambda-redux)
 - [pambda-router](https://github.com/pambda/pambda-router)
 - [pambda-s3-fetch](https://github.com/pambda/pambda-s3-fetch)
