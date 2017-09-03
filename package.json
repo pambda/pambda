@@ -26,7 +26,7 @@
   },
   "scripts": {
     "lint": "eslint lib",
-    "prepublish": "npm run lint"
+    "prepare": "npm run lint"
   },
   "files": [
     "README.md",
