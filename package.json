@@ -10,7 +10,7 @@
     "lambda-terminator": "0.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.0.0"
+    "eslint": "^4.18.2"
   },
   "homepage": "https://github.com/pambda/pambda",
   "keywords": [
