@@ -2,6 +2,22 @@
 
 Pluggable Lambda for AWS.
 
+## Usage
+
+By using this package, you can define a Lambda handler in function synthesis as follows:
+
+``` javascript
+const { compose, createLambda } = require('pambda');
+
+exports.handler = createLambda(
+  compose(
+    pambda1,
+    pambda2,
+    ...
+  )
+);
+```
+
 ## Definition
 
 ### Pambda

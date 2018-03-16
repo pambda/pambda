@@ -2,6 +2,22 @@
 
 プラグイン構成可能な Lambda.
 
+## 使い方
+
+このパッケージを使うことで、以下のように、関数合成で Lambda ハンドラーを定義できる。
+
+``` javascript
+const { compose, createLambda } = require('pambda');
+
+exports.handler = createLambda(
+  compose(
+    pambda1,
+    pambda2,
+    ...
+  )
+);
+```
+
 ## 定義
 
 ### Pambda
@@ -20,22 +36,6 @@ next で次に実行する Lambda を指定できるので、１つの大きな 
 
 ``` javascript
 type Lambda = (event, context, callback)
-```
-
-## 使い方
-
-このパッケージが提供する compose 関数を使用して、プラグインとなる Pambda を合成し、合成した Pambda を Lambda ハンドラーとして export して使用する。
-
-``` javascript
-import { compose, createLambda } from 'pambda';
-
-export const handler = createLambda(
-  compose(
-    pambda1,
-    pambda2,
-    ...
-  )
-);
 ```
 
 ## API
