@@ -74,6 +74,7 @@ This pambda do nothing.
 - [pambda-json-api](https://github.com/pambda/pambda-json-api)
 - [pambda-path](https://github.com/pambda/pambda-path)
 - [pambda-pug](https://github.com/pambda/pambda-pug)
+- [pambda-redirect](https://github.com/pambda/pambda-redirect)
 - [pambda-redux](https://github.com/pambda/pambda-redux)
 - [pambda-router](https://github.com/pambda/pambda-router)
 - [pambda-s3-fetch](https://github.com/pambda/pambda-s3-fetch)
