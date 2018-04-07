@@ -69,6 +69,7 @@ This pambda do nothing.
 - [pambda-by-env](https://github.com/pambda/pambda-by-env)
 - [pambda-cache](https://github.com/pambda/pambda-cache)
 - [pambda-cookie](https://github.com/pambda/pambda-cookie)
+- [pambda-cwlogs](https://github.com/pambda/pambda-cwlogs)
 - [pambda-errorhandler](https://github.com/pambda/pambda-errorhandler)
 - [pambda-github-fetch](https://github.com/pambda/pambda-github-fetch)
 - [pambda-json-api](https://github.com/pambda/pambda-json-api)
