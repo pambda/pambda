@@ -61,6 +61,23 @@ The execution of `lambda-terminator` means there is a bug in the pambda.
 
 This pambda do nothing.
 
+## Context Extending
+
+Some pambdas add properties into a context. Adding properties are following:
+
+| Property     | Pambda                                                       |
+|--------------+--------------------------------------------------------------|
+| [AWSService] | [pambda-aws](https://github.com/pambda/pambda-aws)           |
+| logEvent     | [pambda-cwlogs](https://github.com/pambda/pambda-cwlogs)     |
+| redirect     | [pambda-redirect](https://github.com/pambda/pambda-redirect) |
+| render       | [pambda-pug](https://github.com/pambda/pambda-pug)           |
+
+## Event Extending
+
+| Property | Pambda                                                   |
+|----------+----------------------------------------------------------|
+| cookies  | [pambda-cookie](https://github.com/pambda/pambda-cookie) |
+
 ## Related
 
 - [pambda-404](https://github.com/pambda/pambda-404)
