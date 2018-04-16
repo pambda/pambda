@@ -35,8 +35,12 @@ next で次に実行する Lambda を指定できるので、１つの大きな 
 ### Lambda
 
 ``` javascript
-type Lambda = (event, context, callback)
+type Lambda = (event, context, callback) | (event, context) => Promise
 ```
+
+Lambda は callback スタイルの関数と async function の両方に対応する。
+
+Pambda の中で Lambda を呼び出す際には、どちらの形式の関数であっても動くようにする必要がある。
 
 ## API
 

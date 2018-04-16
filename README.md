@@ -33,8 +33,12 @@ Since `next` can specify Lambda to be executed next, one large Lambda can be div
 ### Lambda
 
 ``` javascript
-type Lambda = (event, context, callback)
+type Lambda = (event, context, callback) | (event, context) => Promise
 ```
+
+Lambda supports both callback style functions and async functions.
+
+When invoking Lambda in Pambda, it is necessary to make it work in both types of functions.
 
 ## API
 
@@ -66,7 +70,7 @@ This pambda do nothing.
 Some pambdas add properties into a context. Adding properties are following:
 
 | Property     | Pambda                                                       |
-|--------------+--------------------------------------------------------------|
+|--------------|--------------------------------------------------------------|
 | [AWSService] | [pambda-aws](https://github.com/pambda/pambda-aws)           |
 | logEvent     | [pambda-cwlogs](https://github.com/pambda/pambda-cwlogs)     |
 | redirect     | [pambda-redirect](https://github.com/pambda/pambda-redirect) |
@@ -75,7 +79,7 @@ Some pambdas add properties into a context. Adding properties are following:
 ## Event Extending
 
 | Property | Pambda                                                   |
-|----------+----------------------------------------------------------|
+|----------|----------------------------------------------------------|
 | cookies  | [pambda-cookie](https://github.com/pambda/pambda-cookie) |
 
 ## Related
