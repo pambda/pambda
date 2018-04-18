@@ -67,6 +67,7 @@ lambda-terminator が実行されることは、Pambda にバグがあること�
 
 ## 関連パッケージ
 
+- [create-pambda-app](https://github.com/pambda/create-pambda-app)
 - [pambda-404](https://github.com/pambda/pambda-404)
 - [pambda-aws](https://github.com/pambda/pambda-aws)
 - [pambda-binary-support](https://github.com/pambda/pambda-binary-support)

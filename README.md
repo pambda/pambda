@@ -84,6 +84,7 @@ Some pambdas add properties into a context. Adding properties are following:
 
 ## Related
 
+- [create-pambda-app](https://github.com/pambda/create-pambda-app)
 - [pambda-404](https://github.com/pambda/pambda-404)
 - [pambda-aws](https://github.com/pambda/pambda-aws)
 - [pambda-binary-support](https://github.com/pambda/pambda-binary-support)
