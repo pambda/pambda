@@ -80,6 +80,7 @@ lambda-terminator が実行されることは、Pambda にバグがあること�
 - [pambda-json-api](https://github.com/pambda/pambda-json-api)
 - [pambda-path](https://github.com/pambda/pambda-path)
 - [pambda-pug](https://github.com/pambda/pambda-pug)
+- [pambda-records](https://github.com/pambda/pambda-records)
 - [pambda-redirect](https://github.com/pambda/pambda-redirect)
 - [pambda-redux](https://github.com/pambda/pambda-redux)
 - [pambda-router](https://github.com/pambda/pambda-router)
