@@ -53,6 +53,16 @@ Pambda の中で Lambda を呼び出す際には、どちらの形式の関数�
 
 引数 `pambdas` の中に `identity` Pambda があった場合、それらは合成対象としない。
 
+falsy な値も同様に無視される。これは以下のような環境変数に依存した処理で役に立つ。
+
+``` javascript
+compose(
+  process.env.AWS_SAM_LOCAL === 'true' && localOnlyPambda,
+
+  ...
+)
+```
+
 ### createLambda(pambda: Pambda): Lambda
 
 指定した Pambda から Lambda を返す。

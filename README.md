@@ -51,6 +51,16 @@ By executing that Lambda, Lambda in Pambda is executed in the order specified by
 
 If there is an `identity` pambda in the argument `pambdas`, they are not to be composited.
 
+Falsy values ​​are also ignored. This is useful that a process depending on environment variables such as a following:
+
+``` javascript
+compose(
+  process.env.AWS_SAM_LOCAL === 'true' && localOnlyPambda,
+
+  ...
+)
+```
+
 ### createLambda(pambda: Pambda): Lambda
 
 Return Lambda from the specified Pambda. The Lambda is exported and used as the main handler.

@@ -16,6 +16,8 @@ test('test', t => {
     compose(
       countUp,
       countUp,
+      false,
+      '',
       identity,
       countUp,
       next => (event, context, callback) => {
