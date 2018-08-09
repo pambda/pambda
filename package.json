@@ -28,6 +28,7 @@
   "scripts": {
     "lint": "eslint lib",
     "prepublishOnly": "npm run lint && npm test",
+    "postpublish": "npm-sns",
     "test": "tape test/test*.js"
   },
   "files": [
