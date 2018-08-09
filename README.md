@@ -105,6 +105,7 @@ Some pambdas add properties into a context. Adding properties are following:
 - [pambda-errorhandler](https://github.com/pambda/pambda-errorhandler)
 - [pambda-github-fetch](https://github.com/pambda/pambda-github-fetch)
 - [pambda-json-api](https://github.com/pambda/pambda-json-api)
+- [pambda-logger](https://github.com/pambda/pambda-logger)
 - [pambda-path](https://github.com/pambda/pambda-path)
 - [pambda-pug](https://github.com/pambda/pambda-pug)
 - [pambda-records](https://github.com/pambda/pambda-records)
