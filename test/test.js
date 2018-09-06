@@ -31,3 +31,17 @@ test('test', t => {
     t.equal(result, 3);
   });
 });
+
+test('test compose()', t => {
+  t.plan(4);
+
+  t.equal(compose(), identity);
+
+  const pambda = next => (next, context, callback) => {};
+
+  t.equal(compose(pambda), pambda);
+
+  t.equal(compose(false, pambda), pambda);
+
+  t.notEqual(compose(pambda, false, pambda), pambda);
+});
