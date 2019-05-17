@@ -7,7 +7,7 @@
     "url": "https://github.com/pambda/pambda/issues"
   },
   "dependencies": {
-    "lambda-terminator": "0.0.1"
+    "lambda-terminator": "^0.1.0"
   },
   "devDependencies": {
     "eslint": "^4.18.2",
